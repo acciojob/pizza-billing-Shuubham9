@@ -11,6 +11,39 @@ public class Pizza {
     boolean isExtraToppingsAdded;
     boolean isTakeAway;
     boolean isBillCreated;
+
+    public Boolean getVeg() {
+        return isVeg;
+    }
+
+    public int getToppings() {
+        return toppings;
+    }
+
+    public int getBag() {
+        return bag;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public void setVeg(Boolean veg) {
+        isVeg = veg;
+    }
+
+    public void setBill(String bill) {
+        this.bill = bill;
+    }
+
+    public void setToppings(int toppings) {
+        this.toppings = toppings;
+    }
+
+    public void setBag(int bag) {
+        this.bag = bag;
+    }
+
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
         // your code goes here
